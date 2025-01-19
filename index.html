@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Rahul</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <nav>
+            <a href="#" class="logo"> <span>PORT</span>folio</a>
+
+            <ul>
+                <li><a href="#Home" onclick="toggleListItems();">Home <br><span>Home</span>
+                    </a></li>
+                <li><a href="#About" onclick="toggleListItems();">About <br><span>About</span>
+                    </a></li>
+                <li><a href="#Projects" onclick="toggleListItems();">Projects <br><span>Projects</span>
+                    </a></li>
+                <li><a href="#Skills" onclick="toggleListItems();">Skills <br><span>Skills</span>
+                    </a></li>
+                <li><a href="#Contact" onclick="toggleListItems();">Contact <br><span>Contact</span>
+                    </a></li>
+            </ul>
+
+            <div class="toggle">
+                <i class="uil uil-moon"></i>
+                <i class="uil uil-sun"></i>
+                <i class="uil uil-bars" onclick="toggleListItems();"></i>
+            </div>
+
+        </nav>
+
+        <!-- header/Home section -->
+
+        <section class="Home" id="Home">
+            <div class="text">
+                <div class="textcontainer">
+                    <span class="reveal">Hello, I'm</span>
+                    <h1 class="reveal">Rahul Kumar </h1>
+                    <i class="hy">👋</i>
+
+                    <h5 class="reveal">Specially: Frontend Developer</h5>
+                    <p class="reveal">As a seasoned frontend developer with a proven track record of designing and developing high-quality user interfaces and proficiency in a wide range of technologies, I'm always exploring new technologies and eager to learn.</p>
+                    <a href="CV" download target="_blank" class="reveal"><i class="uil uil-import"></i>Download CV</a>
+
+                    <a href="#" class="hireme reveal">Hire Me</a>
+                </div>
+            </div>
+            <div class="profile">
+                <div class="featured">
+                    <span style="--i:1">Web Developer</span>
+                    <span style="--i:2">Programmer</span>
+                    <span style="--i:3">Script Writer</span>
+                    <span style="--i:4">Graphic Designer</span>
+                </div>
+
+                <div class="canvas">
+                    <img src="assests/IMG_20240809_003241_699.webp" alt="user-profile">
+
+                </div>
+            </div>
+        </section>
+
+        <!-- About section -->
+        <section class="About page" id="About">
+
+            <div class="userdetails">
+                <div class="details">
+                    <div class="imgbox reveal">
+                        <img src="assests/IMG_20240809_003241_699.webp" alt="user-profile">
+                    </div>
+                    <h1 class="reveal">Rahul Kumar</h1>
+                    <h5 class="reveal">Frontend Developer</h5>
+                    <div class="socialmedia">
+                        <a href="https://github.com/Rahul-krx" target="_blank"> <i
+                                class="uil uil-github-alt reveal"></i></a>
+                        <i class="uil uil-linkedin-alt reveal"></i>
+                        <a href="https://www.instagram.com/1x_rahul____/" target="_blank"><i
+                                class="uil uil-instagram reveal"></i></a>
+                    </div>
+                </div>
+
+                <div class="details">
+                    <h2 class="heading">About <span>Myself</span></h2>
+                    <p class="reveal">Hi, I’m Rahul Kumar, a Frontend Developer who loves building user-friendly and
+                        visually appealing websites. I have a solid background in HTML, CSS, and JavaScript and enjoy
+                        turning ideas into responsive, interactive web experiences. <br>
+
+                        I’ve also worked with modern tools like React, Bootstrap, and Tailwind CSS to create projects
+                        that not only look great but also perform seamlessly. I focus on smooth user interactions,
+                        compatibility across different browsers, and optimizing performance without sacrificing design
+                        quality. <br>
+
+                        I enjoy working as part of a team where creative ideas and technical solutions come together.
+                        Whether it’s collaborating with designers, backend developers, or clients, I always bring a
+                        practical approach and attention to detail to the table.</p>
+                    <div class="btn"><a href="#" class="reveal">Know more <i class="uil uil-arrow-right"></i></a></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- project section -->
+         <div class="projects2" id="Projects">
+        <h2>My <span class="headings project2">projects</span></h2>
+    </div>
+        <div class="grid" >
+            <!-- Code Editor -->
+            <div class="card">
+                <div class="icon "><img src="assests/metadata_10063455.png" alt=""></div>
+                <h2 class="title ">Code Editor</h2>
+                <p class="description">A fully functional code editor built using the CodeMirror library, supporting syntax highlighting and editing for four programming languages: C, C++, Java, and Python.</p>
+                <a href="#" class="live-link">Live Link</a>
+            </div>
+    
+            <!-- Full Stack E-commerce -->
+            <div class="card">
+                <div class="icon "><img src="assests/cart_6397236.png" alt=""></div>
+                <h2 class="title">Full Stack E-commerce</h2>
+                <p class="description">Developed a full-stack e-commerce platform with an integrated payment gateway, allowing users to browse, purchase products, and complete transactions securely.</p>
+                <a href="#" class="live-link">Live Link</a>
+            </div>
+            <div class="card">
+                <div class="icon "><img src="assests/folder_9782480.png" alt=""></div>
+                <h2 class="title">File Sharing Application</h2>
+                <p class="description">A web application that allows users to upload files, documents, and PDFs, converting them into secure and easily shareable links for seamless sharing..</p>
+                <a href="#" class="live-link">Live Link</a>
+            </div>
+        </div>
+
+        <!-- Skills section -->
+        <section class="skills" id="Skills">
+            <h2>My <span class="headings">Skills</span></h2>
+            <div class="skills-grid">
+                <div class="skill-card"><img src="assests/ca5b691e7d1ed9b7f1e1dbfa9a325513.png" alt="" class="skill-icon"></div>
+                <div class="skill-card"><img src="assests/a26244ce11444bd57e0e83e304c4a319.png" alt="" class="skill-icon"></div>
+                <div class="skill-card"><img src="assests/fbff81360de5c2473dc531377833efc6.png" alt="Git" class="skill-icon"></div>
+
+                <div class="skill-card"> <img src="assests/3f0dd5b7ff57762e5333e1d3c3ed6b0a.png" alt="Github" class="skill-icon"></div>
+
+                <div class="skill-card"><img src="assests/1c4bac184ed459238cf3d792390d70be.png" alt="JavaScript" class="skill-icon"></i></div>
+
+
+                <div class="skill-card"><img src="assests/bootstrap.png" alt="Bootstrap" class="skill-icon"></div>
+                <div class="skill-card"><img src="assests/4adb861238d598282b653a9eef653b5f.png" alt="C++" class="skill-icon"></div>
+                <div class="skill-card"><img src="assests/a8cd2dd4499c1bba48709320bb50fb56.png" alt="C" class="skill-icon"></div>
+                <div class="skill-card"> <img src="assests/30cafbb5f54f45ceb310033f914aa530.png" alt="React" class="skill-icon"></div>
+                <div class="skill-card"><img src="https://logowik.com/content/uploads/images/tailwind-css3232.logowik.com.webp" alt="Tailwind" class="skill-icon"></div>
+                <div class="skill-card"><img src="assests/e6cd9af44aea81a4b1a66d0ad61455aa.png" alt="Python" class="skill-icon"></div>
+               
+            </div>
+        </section>
+
+        <!-- Contact section -->
+        <section class="Contact page" id="Contact">
+            <h2 class="heading">Contact <span>Me</span></h2>
+            <div class="wrapper">
+                <div class="contactinfo">
+                    <h1 class="reveal">Get in touch</h1>
+                    <div class="textinfo reveal">
+                        <i class="uil uil-envelope"></i>
+                        <p>krahul86946@gmail.com</p>
+                    </div>
+                    <div class="textinfo reveal">
+                        <i class="uil uil-phone-alt"></i>
+                        <p>+91 9608662319</p>
+                    </div>
+                    <div class="textinfo reveal">
+                        <i class="uil uil-map-marker"></i>
+                        <p>Bodhgaya,Gaya,Bihar</p>
+                    </div>
+
+                </div>
+                <div class="contactinfo form">
+                    <form action="https://api.web3forms.com/submit" method="POST" class="reveal">
+                        <input type="hidden" name="access_key" value="56c5d32b-66f0-4bce-a3e9-e42019ec33b4">
+                        <div class="entrybox usernames">
+                            <input type="text" name="name" placeholder="First name" required>
+                            <input type="text" name="name" placeholder="Last name" required>
+                        </div>
+                        <div class="entrybox ">
+                            <input type="email" name="email" placeholder="Email address" required>
+
+                        </div>
+                        <div class="entrybox">
+                            <textarea type="text" name="text" placeholder="Enter your queries" required></textarea>
+
+                        </div>
+                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                        <button class="submit">Submit<i class="uil uil-message"></i></button>
+                    </form>
+
+                </div>
+            </div>
+            <!-- copyright -->
+            <div class="copyright">
+                <p><i class="uil uil-copyright">2024 by @Rahul | All rights reserved</i></p>
+            </div>
+        </section>
+
+        <div class="scrolltotop">
+            <a href="#Home"><i class="uil uil-arrow-up"></i></a>
+        </div>
+        <div class="theme-colors">
+            <span class="colorpicker"></span>
+            <span class="colorpicker"></span>
+            <span class="colorpicker"></span>
+            <span class="colorpicker"></span>
+            <h2>Choose Your Theme <i class="uil uil-arrow-right"></i></h2>
+        </div>
+
+    </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
